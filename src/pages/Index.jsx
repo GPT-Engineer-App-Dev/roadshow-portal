@@ -4,9 +4,10 @@ import { FaMusic, FaTicketAlt } from "react-icons/fa";
 const Index = () => {
   return (
     <Container centerContent maxW="container.xl" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="brand.900" color="white">
-      <VStack spacing={8}>
-        <Image src="https://via.placeholder.com/150" alt="Band Logo" boxSize="150px" />
+      <VStack spacing={10}>
+        <Image src="/images/band-live.jpg" alt="Live Performance" boxSize="150px" />
         <Heading as="h1" size="2xl">The Rockers</Heading>
+        <Image src="/images/tour-bus.jpg" alt="Tour Bus" boxSize="300px" mt={4} />
         <Text fontSize="xl" textAlign="center">
           Join us on our world tour and experience the thrill of live music!
         </Text>
